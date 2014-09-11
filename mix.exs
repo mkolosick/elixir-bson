@@ -5,7 +5,7 @@ defmodule Bson.Mixfile do
     [ app: :bson,
       name: "bson",
       version: "0.3.0",
-      elixir: "~> 0.15.0",
+      elixir: "~> 1.0.0",
       source_url: "https://github.com/mkolosick/elixir-bson",
       deps: deps(Mix.env),
       docs: &docs/0 ]
